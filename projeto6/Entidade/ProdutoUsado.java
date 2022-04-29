@@ -8,6 +8,8 @@ import java.time.format.DateTimeFormatter;
 
  
 public class ProdutoUsado extends Produtos {
+    private LocalDate dataFabricacao;
+
    
     public ProdutoUsado(String nome, double preco, LocalDate dataFabricacao) {
         super(nome, preco);
@@ -16,8 +18,7 @@ public class ProdutoUsado extends Produtos {
 
 
 
-    private LocalDate dataFabricacao;
-
+    
     
     
     public String precoVenda(){
